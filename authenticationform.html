@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <title>Authentication Form</title>
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Horton's</a>
+      <!-- <ul class="right hide-on-med-and-down">
+        <li><a href="#">Form</a></li>
+      </ul> -->
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Form</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Sign up</h1>
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">And enjoy the</h5> -->
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="bike.jpg"></div>
+  </div>
+
+<form id="register-form">
+  <div class="container">
+    <div class="section">
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+
+        <div class="input-field col s6">
+          <input name="last_name" id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+          <input name="username" id="username" type="text" class="validate">
+          <label for="username">Username</label>
+        </div>
+        
+      
+      
+        <div class="input-field col s6">
+          <input name="birthdate" id="birthdate" type="text" class="datepicker">
+              <label>Birthdate</label>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="input-field col s6">
+            <input name="age" id="age" type="number" name="age">
+              <label for="age">Age</label>
+        </div>
+          
+
+            
+
+          <div class="input-field col s6">
+            <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            <!-- <input id="password" type="password" class="validate">
+             <label for="password">Confirm Password</label> -->
+            </div>
+          </div>
+
+            
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input name="password" id="password" type="password" class="validate">
+             <label for="password">Password</label>
+
+          </div>
+
+
+       <div class="input-field col s6">
+            <input name="cpassword" id="cpassword" type="password" class="validate">
+             <label for="password">Confirm Password</label>
+            </div>
+        </div>
+        <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Help</div>
+      <div class="collapsible-body"><span style="font-size: 10px;">Learn how to browse incognito in IE, so pages you open and files you download aren’t recorded in yeye's browsing or download history.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Privacy</div>
+      <div class="collapsible-body"><span style="font-size: 10px;">You can use our services in a variety of ways to manage your privacy. For example, you can sign up for a yeye Account if you want to create and manage content like emails and photos, or see more relevant search results. And you can use many Google services when you’re signed out or without creating an account at all, like searching on Google or watching YouTube videos. You can also choose to browse the web privately using Chrome in Incognito mode. And across our services, you can adjust your privacy settings to control what we collect and how your information is used.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Terms</div>
+      <div class="collapsible-body"><span style="font-size: 10px;">Using our Services
+You must follow any policies made available to you within the Services.
+
+Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.
+
+Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services.
+
+Our Services display some content that is not Google’s. This content is the sole responsibility of the entity that makes it available. We may review content to determine whether it is illegal or violates our policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don’t assume that we do.
+
+In connection with your use of the Services, we may send you service announcements, administrative messages, and other information. You may opt out of some of those communications.
+
+Some of our Services are available on mobile devices. Do not use such Services in a way that distracts you and prevents you from obeying traffic or safety laws.</span></div>
+    </li>
+  </ul>
+        <button class="btn btn-large cyan pulse" type="submit" value="submit" name="action" style="float: right;">Submit<i class="material-icons right">send</i>
+        </button>
+        <!-- <button  class="btn waves-effect btn-large pulse" type="submit" name="action" style="margin-left: 81em;
+  margin-top: 50px;">Submit<i class="material-icons right">send</i></button> -->
+    </form>
+  </div>
+        
+
+
+  
+      <!-- <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Cafe</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="bike.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+        </div>
+        
+        <div class="col l3 s12">
+          <h5 class="white-text">Map</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.06257183382!2d121.05000247809359!3d14.583933337008162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8142994ce0b%3A0xf7f3251bc576fd13!2sOrtigas+Center%2C+Pasig%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1529843595549" width="320" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by : Pat</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="https://ajax.aspnetcdn.com/ajax.validate/1.13.0/jquery.validate.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  </body>
+</html>
